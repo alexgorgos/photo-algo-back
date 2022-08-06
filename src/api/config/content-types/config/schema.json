@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "configs",
+  "info": {
+    "singularName": "config",
+    "pluralName": "configs",
+    "displayName": "Config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Site Name"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true,
+      "default": "this is a subtitle"
+    }
+  }
+}
