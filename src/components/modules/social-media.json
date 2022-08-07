@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_modules_social_medias",
+  "info": {
+    "displayName": "Social Media",
+    "icon": "wifi"
+  },
+  "options": {},
+  "attributes": {
+    "facebookUrl": {
+      "type": "string"
+    },
+    "instagramUrl": {
+      "type": "string"
+    },
+    "twitterUrl": {
+      "type": "string"
+    },
+    "youtubeUrl": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_modules_featured_galleries",
+  "info": {
+    "displayName": "Featured Gallery",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "featuredImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
