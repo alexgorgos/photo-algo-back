@@ -21,6 +21,16 @@
       "type": "string",
       "required": true,
       "default": "this is a subtitle"
+    },
+    "homepageGallery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "modules.featured-gallery"
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "modules.social-media"
     }
   }
 }
