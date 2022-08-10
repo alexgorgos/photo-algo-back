@@ -1,4 +1,8 @@
 module.exports = ({ env }) => ({
+  navigation: {
+    enabled: true,
+  },
+  graphql: { enabled: true },
   upload: {
     config: {
       provider: "cloudinary",
