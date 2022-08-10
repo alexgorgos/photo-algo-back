@@ -19,7 +19,7 @@
     "@strapi/strapi": "4.3.3",
     "pg": "8.6.0",
     "pg-connection-string": "^2.5.0",
-    "strapi-plugin-menus": "^1.0.0",
+    "strapi-plugin-navigation": "^2.2.1",
     "strapi-plugin-wysiwsg-react-md-editor": "^4.2.0"
   },
   "author": {
