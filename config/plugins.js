@@ -2,7 +2,12 @@ module.exports = ({ env }) => ({
   navigation: {
     enabled: true,
   },
-  graphql: { enabled: true },
+  menus: {
+    enabled: true,
+    config: {
+      maxDepth: 3,
+    },
+  },
   upload: {
     config: {
       provider: "cloudinary",
@@ -17,4 +22,5 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  graphql: { enabled: true },
 });
