@@ -1,7 +1,4 @@
 module.exports = ({ env }) => ({
-  navigation: {
-    enabled: true,
-  },
   menus: {
     enabled: true,
     config: {
