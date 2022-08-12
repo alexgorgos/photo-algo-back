@@ -28,11 +28,11 @@
       "type": "richtext",
       "required": false
     },
-    "categories": {
+    "galleries": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "photos"
+      "target": "api::gallery.gallery",
+      "mappedBy": "photos"
     }
   }
 }
