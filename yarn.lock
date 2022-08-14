@@ -10926,6 +10926,11 @@ strapi-plugin-menus@^1.0.0:
     react-select "^5.2.2"
     styled-components "^5.3.3"
 
+strapi-plugin-populate-deep@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-populate-deep/-/strapi-plugin-populate-deep-0.1.2.tgz#89e9fa0dd10bb1c57336625f765cff98950dafa2"
+  integrity sha512-cYmK5g4QqrGAWjUzEnd6P1XcqeXFcu/2yk/lg3ClQDnp46vb9i03CT7tW2YHz9JSf8g371iq0JPholL1q7Q1CA==
+
 strapi-plugin-wysiwsg-react-md-editor@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/strapi-plugin-wysiwsg-react-md-editor/-/strapi-plugin-wysiwsg-react-md-editor-4.2.0.tgz#280199f02e5564c90874f07d8a9675a39adbda3c"

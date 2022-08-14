@@ -20,6 +20,7 @@
     "pg": "8.6.0",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-menus": "^1.0.0",
+    "strapi-plugin-populate-deep": "^0.1.2",
     "strapi-plugin-wysiwsg-react-md-editor": "^4.2.0"
   },
   "author": {
