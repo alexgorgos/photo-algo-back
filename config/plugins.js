@@ -15,7 +15,7 @@ module.exports = ({ env }) => ({
       },
       actionOptions: {
         upload: {
-          format: "webp",
+          upload_preset: "algophotos",
         },
         delete: {},
       },
