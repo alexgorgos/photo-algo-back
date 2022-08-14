@@ -21,5 +21,5 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  graphql: { enabled: true },
+  graphql: { config: { shadowCRUD: true, depthLimit: 10 } },
 });
