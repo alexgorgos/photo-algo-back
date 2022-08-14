@@ -5,16 +5,16 @@
  */
 
 const { createCoreController } = require("@strapi/strapi").factories;
+const {
+  default: entityService,
+} = require("@strapi/strapi/lib/services/entity-service");
 
 module.exports = createCoreController("api::config.config", ({ strapi }) => ({
   async find(ctx) {
-    const { query } = ctx;
+    console.log(ctx.query);
+    ctx.query = { ...ctx.query, populate: "deep" };
 
-    const entity = await strapi.entityService.find({
-      ...query,
-      populate: "deep",
-    });
-    const sanitizedEntity = await this.sanitizeOutput(entity, ctx);
-    return this.transformResponse(sanitizedEntity);
+    const response = await super.find(ctx);
+    return response;
   },
 }));
