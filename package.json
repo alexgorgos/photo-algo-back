@@ -15,10 +15,12 @@
     "@strapi/plugin-graphql": "4.3.4",
     "@strapi/plugin-i18n": "4.3.4",
     "@strapi/plugin-users-permissions": "4.3.4",
+    "@strapi/provider-email-nodemailer": "^4.3.6",
     "@strapi/provider-upload-cloudinary": "^4.3.2",
     "@strapi/strapi": "4.3.4",
     "pg": "8.6.0",
     "pg-connection-string": "^2.5.0",
+    "strapi-plugin-ezforms": "^0.1.0",
     "strapi-plugin-menus": "^1.0.0",
     "strapi-plugin-populate-deep": "^0.1.2",
     "strapi-plugin-wysiwsg-react-md-editor": "^4.2.0"
