@@ -25,7 +25,7 @@ module.exports = ({ env }) => ({
     config: {
       provider: "nodemailer",
       providerOptions: {
-        host: env("SMTP_HOST", "smtp.example.com"),
+        host: env("SMTP_HOST"),
         port: env("SMTP_PORT", 587),
         auth: {
           user: env("SMTP_USERNAME"),
