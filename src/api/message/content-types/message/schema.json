@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "singularName": "message",
+    "pluralName": "messages",
+    "displayName": "Message"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "private": true
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "private": true,
+      "unique": false
+    },
+    "message": {
+      "type": "text",
+      "required": true,
+      "private": true
+    }
+  }
+}
