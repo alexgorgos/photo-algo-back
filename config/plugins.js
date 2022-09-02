@@ -38,5 +38,13 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  "netlify-deployments": {
+    enabled: true,
+    config: {
+      buildHook: env("BUILD-HOOK-NETLIFY"),
+      accessToken: env("ACCESS-TOKEN-NETLIFY"),
+      siteID: env("SITE-ID-NETLIFY"),
+    },
+  },
   graphql: { config: { shadowCRUD: true, depthLimit: 10 } },
 });
