@@ -18,6 +18,8 @@
     "@strapi/provider-email-nodemailer": "^4.3.6",
     "@strapi/provider-upload-cloudinary": "^4.3.2",
     "@strapi/strapi": "4.3.4",
+    "dotenv": "^16.0.2",
+    "node-fetch": "^3.2.10",
     "pg": "8.6.0",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-menus": "^1.0.0",

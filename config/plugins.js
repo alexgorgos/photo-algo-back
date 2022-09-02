@@ -38,26 +38,5 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  ezforms: {
-    config: {
-      captchaProvider: {
-        name: "recaptcha",
-        config: {
-          secretKey: env("SECRET_RECAPTCHA"),
-          minimumScore: 0.5,
-        },
-      },
-      notificationProviders: [
-        {
-          name: "email",
-          enabled: true,
-          config: {
-            subject: "New message on Photo website",
-            from: "noreply@alexandrugorgos.com",
-          },
-        },
-      ],
-    },
-  },
   graphql: { config: { shadowCRUD: true, depthLimit: 10 } },
 });
