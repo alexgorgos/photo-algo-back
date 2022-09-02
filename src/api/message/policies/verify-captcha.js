@@ -20,6 +20,9 @@ module.exports = (policyContext, config, { strapi }) => {
   const secret = strapi.config.get("server.reCaptchaSecret");
   const token = policyContext.request.body.token;
 
+  console.log(`secret:`, secret);
+  console.log(`token:`, token);
+
   return isHuman(secret, token)
     .then((res) => {
       return res.success;
