@@ -1,6 +1,5 @@
 "use strict";
 
-const recaptcha = require("recaptcha-validator");
 const fetch = (url) =>
   import("node-fetch").then(({ default: fetch }) => fetch(url));
 
