@@ -25,7 +25,7 @@ module.exports = (policyContext, config, { strapi }) => {
 
   return isHuman(secret, token)
     .then((res) => {
-      return res.success;
+      return res.success && res.score > 0.5;
     })
     .catch((err) => {
       console.error(err);
