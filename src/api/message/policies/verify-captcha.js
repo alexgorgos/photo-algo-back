@@ -11,6 +11,8 @@ const isHuman = async (secret, token) => {
     }
   );
   const res = await data.json();
+
+  console.log(res);
   return res;
 };
 
@@ -18,7 +20,7 @@ module.exports = (policyContext, config, { strapi }) => {
   const secret = strapi.config.get("server.reCaptchaSecret");
   const token = policyContext.request.body.token;
 
-  isHuman(secret, token)
+  return isHuman(secret, token)
     .then((res) => {
       return res.success;
     })
