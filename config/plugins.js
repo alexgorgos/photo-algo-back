@@ -43,7 +43,7 @@ module.exports = ({ env }) => ({
     config: {
       buildHook: env("BUILD_HOOK_NETLIFY"),
       accessToken: env("ACCESS_TOKEN_NETLIFY"),
-      siteID: env("SITE_ID_NETLIFY"),
+      siteId: env("SITE_ID_NETLIFY"),
     },
   },
   graphql: { config: { shadowCRUD: true, depthLimit: 10 } },
